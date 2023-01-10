@@ -1,0 +1,108 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(fons/отзывы.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+
+
+}
+.container {
+    position: relative;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .block {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 380px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #1b1b1b;
+    transition: .7s;
+}
+
+
+
+
+.container .block:hover {
+    transform: translateY(-10px);
+}
+
+
+
+
+
+
+.container .block .content {
+    padding: 30px;
+    text-align: center;
+}
+.container .block .content .quote-img {
+    width: 50px;
+} 
+
+
+.container .block .content p {
+    color: #fff;
+    padding: 20px 0;
+}
+
+
+
+img {
+    width: 80px;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+
+.container .block .content h3 {
+    margin-top: 20px;
+    color: #33d1a0;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 700;
+
+}
+
+
+.MEFSDF {
+    position: relative;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.MEFSDF.blockS {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 380px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #1b1b1b;
+    transition: .7s;
+}
